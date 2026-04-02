@@ -1,0 +1,5 @@
+input_shape=[1, 124, 128, 1]
+input_dtype=<class 'numpy.float32'>
+output_shape=[1, 2]
+output_dtype=<class 'numpy.float32'>
+ops=QUANTIZE, RESIZE_BILINEAR, CONV_2D, MAX_POOL_2D, CONV_2D, MAX_POOL_2D, SHAPE, STRIDED_SLICE, PACK, RESHAPE, FULLY_CONNECTED, FULLY_CONNECTED, SOFTMAX, DEQUANTIZE, DELEGATE, DELEGATE, DELEGATE
